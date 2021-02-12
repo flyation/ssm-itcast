@@ -12,5 +12,11 @@
 </head>
 <body>
     <a href="/account/list">hello</a>
+    <hr>
+    <form action="/account/save" method="post">
+        姓名：<input name="name"><br>
+        金额：<input name="money">
+        <input type="submit" value="提交">
+    </form>
 </body>
 </html>

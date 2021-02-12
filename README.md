@@ -11,3 +11,8 @@
         2. 配置视图解析器`InternalResourceViewResolver`
         3. 过滤静态资源
         4. 开启mvc注解支持
+3. 整合MyBatis
+    1. 配置`applicationContext.xml`
+        1. 数据库连接池`ComboPooledDataSource`
+        2. sqlSession工厂`SqlSessionFactoryBean`
+        3. mapper代理对象`MapperScannerConfigurer`
